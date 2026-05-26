@@ -1,0 +1,11 @@
+{
+  "name": "L'Atelier Pile-Attitude",
+  "short_name": "Pile-Attitude",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#aab8a5",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
