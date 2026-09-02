@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: "Tarifs Cours Pilates Machines & Tapis | Chatou (78)",
       description:
-        "Séance Solo dès 70 €, Duo 50 €/pers, cours collectifs dès 138 €/trimestre — Studio Pilates Chatou.",
+        "Séance Solo dès 70 €, Duo 50 €/pers, cours collectifs dès 143 €/trimestre — Studio Pilates Chatou.",
       url: "https://www.atelier-pile-attitude.fr/tarifs",
       locale: "fr_FR",
       type: "website",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title: "Tarifs Pilates Machines & Tapis | Chatou (78) — À partir de 30 €",
-      description: "Séance Solo 70 €, Duo 50 €/pers, Trio 40 €/pers. Cartes 5 ou 10 séances. Cours collectifs tapis dès 138 €/trimestre.",
+      description: "Séance Solo 70 €, Duo 50 €/pers, Trio 40 €/pers. Cartes 5 ou 10 séances. Cours collectifs tapis dès 143 €/trimestre.",
       images: ["/og-image.jpg"],
     },
     alternates: {
@@ -87,7 +87,7 @@ const COLLECTIFS_FALLBACK: CollectifSection[] = [
   {
     professeure: "Sophie",
     lieu: "Centre Coroze, Chatou",
-    creneaux: ["Mardi 9h45 (1h)", "Jeudi 19h (1h)"],
+    creneaux: ["Mardi 9h (1h)", "Mardi 10h (1h)", "Jeudi 19h (1h)"],
     tarifs: [
       { label: "1 cours / semaine", prix: "220 €/trim." },
       { label: "2 cours / semaine", prix: "370 €/trim." },
@@ -96,10 +96,10 @@ const COLLECTIFS_FALLBACK: CollectifSection[] = [
   {
     professeure: "Elise",
     lieu: "Natformgym, Croissy-sur-Seine",
-    creneaux: ["Lundi 18h30 (1h)", "Vendredi 12h15 (1h)", "Vendredi 13h15 (45 mn)"],
+    creneaux: ["Lundi 17h30 (1h)", "Lundi 18h30 (1h)", "Vendredi 12h15 (1h)", "Vendredi 13h15 (45 mn)"],
     tarifs: [
-      { label: "1 cours d'1h / semaine", prix: "173 €/trim." },
-      { label: "1 cours 45 mn / semaine", prix: "138 €/trim." },
+      { label: "1 cours d'1h / semaine", prix: "176 €/trim." },
+      { label: "1 cours 45 mn / semaine", prix: "143 €/trim." },
     ],
   },
 ];
@@ -369,7 +369,7 @@ export default async function TarifsPage() {
                   "@type": "Service",
                   "name": "Cours collectif Pilates Tapis — Elise (trimestre)",
                   "provider": { "@id": "https://www.atelier-pile-attitude.fr/#business" },
-                  "offers": { "@type": "Offer", "price": "173", "priceCurrency": "EUR", "description": "1 cours d'1h/semaine par trimestre" },
+                  "offers": { "@type": "Offer", "price": "176", "priceCurrency": "EUR", "description": "1 cours d'1h/semaine par trimestre" },
                 },
               },
             ],
